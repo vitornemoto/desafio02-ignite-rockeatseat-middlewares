@@ -3,7 +3,7 @@ const { v4 } = require('uuid');
 const {
   users,
   checksCreateTodosUserAvailability
-} = require('../../');
+} = require('../../index.js');
 
 let response;
 let request;
